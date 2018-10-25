@@ -1,3 +1,139 @@
 html {
-  font-family: arial;
+  font-family: arial , sans-serif;
 }
+
+/* Navbar  */
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  padding-left:24px;
+}
+
+
+ .colmar,
+.academy {
+  font-family: 'Lato', sans-serif;
+   font-size:32px;
+ }
+
+ .colmar{
+   font-weight:bold;
+ }
+
+ .academy{
+   font-weight:200;
+ }
+
+ nav span {
+   padding-left: 16px;
+
+ }
+
+ nav {
+   padding-right:24px;
+
+ }
+
+nav a {
+  color:black;
+  text-decoration: none;
+}
+
+.mobile-navbar {
+  display:none;
+}
+
+ @media only screen and (max-width:480px) {
+   .mobile-navbar{
+     display:flex;
+     justify-content: space-between;
+     width:100%;
+     max-height: 64px;
+     padding-left: 4rem;
+   }
+
+   nav,
+    .colmar,
+    .academy {
+     display:none;
+   }
+ }
+
+ /* site container */
+
+.site-container {
+   display:flex;
+   flex-direction: column;
+   max-width: 960px;
+   background-color: red;
+ }
+
+
+
+ /* section 1 */
+
+ #section-1 {
+   display:flex;
+   justify-content: flex-start;
+   background-color: lightgray;
+   padding: 32px 24px 32px 24px;
+ }
+
+ #section-1 .img-container {
+   max-width:60%;
+   height:auto;
+ }
+
+#section-1 h1 {
+  font-weight: 900;
+}
+
+#section-1 img {
+  width:100%;
+}
+
+ #section-1 .banner-content {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color:#28292b;
+   margin-left: 24px;
+
+ }
+
+ #section-1 .button {
+   background-color:#28292b;
+   color: #FFFFFF;
+   padding: 8px 80px 8px 80px;
+   font-size:1.5rem;
+   display:flex;
+
+
+
+
+ }
+
+#section-1 .button a {
+  text-decoration: none;
+  color:white;
+  text-align: center;
+}
+
+
+ /* section 2 */
+
+
+ #section-2 {
+   display:flex;
+
+
+ }
+
+.img-container {
+   margin: 0 auto;
+ }
