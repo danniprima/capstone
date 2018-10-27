@@ -21,6 +21,7 @@ html {
 .academy {
   font-family: 'Lato', sans-serif;
    font-size:32px;
+   text-shadow: 1.5px 1.5px grey;
  }
 
  .colmar{
@@ -161,6 +162,28 @@ nav a:hover {
 }
 
 
+
+  @media only screen and (max-width:480px){
+      .site-container{
+        width:100%;
+      }
+
+      #section-1 {
+        display:flex;
+        flex-wrap:wrap;
+      }
+
+      #section-1 .img-container-1{
+        width: 100%;
+      }
+
+       #section-1 .banner-content {
+         padding-top:32px;
+         padding-bottom:24px;
+         width:100%;
+       }
+  }
+
  /* section 2 */
 
 
@@ -238,6 +261,68 @@ nav a:hover {
    margin-bottom:8px;
  }
 
+ .c2-1 .c2-1-info a:hover,
+ .c2-2 .c2-2-info a:hover,
+ .c2-3 .c2-3-info a:hover {
+   background-color:#01132C ;
+   padding:5px;
+   font-weight:bold;
+   color:goldenrod;
+   transition: all .25s ease-out;
+ }
+
+
+
+   @media only screen and (max-width:480px) {
+     #section-2
+        {
+            width:100%;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+          }
+
+      #section-2 .content-1 {
+        display:none;
+      }
+
+      #section-2 .content-2 {
+        width:100%;
+        flex-direction: column;
+
+      }
+
+      .c2-1,
+      .c2-2,
+      .c2-3 {
+        flex-direction: column;
+        width:100%;
+        margin: 16px;
+        text-align: center;
+      }
+
+      .c2-1-img,
+      .c2-2-img,
+      .c2-3-img {
+        width:70%;
+        margin: 0 auto;
+      }
+
+
+      .c2-1 h3,
+      .c2-2 h3,
+      .c2-3 h3 {
+        margin-top: 5px;
+        font-size:2rem;
+      }
+
+      .c2-1 .c2-1-info,
+      .c2-2 .c2-2-info,
+      .c2-3 .c2-3-info {
+        width:100%;
+      }
+   }
+
  /*section 3*/
 
  #section-3 {
@@ -258,12 +343,6 @@ nav a:hover {
    margin-top: 16px;
  }
 
-/*
- #section-3 .s3-programs img {
-   width:100% ;
-   height: auto;
- }
-*/
 
 .s3-img img {
   width:100%;
@@ -327,7 +406,59 @@ nav a:hover {
   margin-bottom:1px;
 }
 
+.section-3-mobile {
+  display:none;
+}
 
+ @media only screen and (max-width:480px)  {
+
+ #section-3 {
+   display:none;
+ }
+
+
+.section-3-mobile {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+
+
+}
+
+.section-3-mobile h1 {
+  text-align: center;
+  color:#01132C;
+  font-size: 3rem;
+  margin-botom:16px;
+}
+
+.section-3-mobile ul {
+  list-style: none;
+}
+
+.section-3-mobile li {
+  font-size: 1.5rem;
+  background-color:#01132C;
+  color:white;
+  padding:16px;
+  margin:10px;
+  text-align: center;
+  width:100%;
+
+}
+
+.section-3-mobile li:hover {
+  background-color:#1c407a ;
+  color: goldenrod;
+  transition: all .25s ease-out;
+
+
+}
+
+
+ }
 
 /*section 4 */
 
@@ -390,3 +521,29 @@ nav a:hover {
     border-top: solid 1px;
     font-size: .75rem;
   }
+
+
+   @media only screen and (max-width:480px) {
+
+     .thesis-options {
+       display:none;
+     }
+
+     .end {
+       display:none;
+     }
+
+     .thesis-container {
+       width:100%;
+       justify-content: center;
+       margin-bottom:24px;
+     }
+
+     .video-container{
+     width:100%
+   }
+
+   footer {
+     margin-top: 16px;
+   }
+   }
