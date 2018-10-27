@@ -244,7 +244,6 @@ nav a:hover {
    display:flex;
   flex-direction: column;
   border: solid 1px white;
-
  }
 
  #section-3 .s3-programs {
@@ -255,7 +254,6 @@ nav a:hover {
 .s3-programs2 {
    display:flex;
    justify-content: space-around;
-   margin-top: 16px;
  }
 
 /*
@@ -276,13 +274,6 @@ nav a:hover {
 
 }
 
-.s3-heading {
-  font-family:'Titillium Web', sans-serif;
-  color:#1c407a;
-  font-size: 2rem;
-  background-color: lightgrey;
-  text-shadow: 10px white;
-}
 
 
  .s3-programs .swe,
@@ -309,13 +300,8 @@ nav a:hover {
  .s3-programs2 .business-info,
  .s3-programs2 .marketing
   {
-   padding:16px;
-   background-color: white;
-   box-shadow: 5px 5px grey;
-
+   padding: 16px;
  }
-
-
 
   }
 
@@ -331,23 +317,12 @@ nav a:hover {
 
 /*section 4 */
 
-#section-4 {
-  background-color: #01132C;
-  color:#B8BDB5;
-}
-
 #section-4 .s3-heading,
 #section-3  .s3-heading {
   text-align: center;
   margin-top: 32px;
   margin-bottom:32px;
 }
-
-#section-4 h1 {
-  text-align: center;
-  color:white;
-}
-
 
 .thesis-container {
   display:flex;
@@ -361,7 +336,6 @@ nav a:hover {
 
 .video-container video {
   width:100%;
-  margin-left:16px;
 }
 
 
@@ -383,10 +357,8 @@ nav a:hover {
 
   .end {
     margin-bottom: 32px;
-    margin-left:16px;
   }
 
   footer {
     border-top: solid 1px;
-    font-size: .75rem;
   }
